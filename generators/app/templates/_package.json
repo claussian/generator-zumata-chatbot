@@ -38,7 +38,7 @@
     "lint:fix": "tslint -p . -c tslint.json --fix",
     "nsp": "nsp check",
     "serve": "node --max-old-space-size=8192 --nouse-idle-notification --expose-gc --expose-wasm -r @std/esm dist/",
-    "start": "npm run build && npm run serve",
+    "start": "npm run serve",
     "ts": "tsc --target esnext --lib esnext,esnext.asynciterable --module commonjs gulpfile.ts"
   },
   "dependencies": {
